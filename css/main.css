@@ -9047,3 +9047,42 @@ a.modal-cart-submit-btn{
 	position: static;
 	margin: 30rem 0 0 0;
 }
+
+
+
+/* TEMPLATE - PAGE REGISTRATION SUCCESS */
+/* ------------------- */
+
+.response-content-container.registration-success-content-container > h1{
+	font-size: 22rem;
+	line-height: 32rem;
+	letter-spacing: .5rem;
+	color: #1a171c;
+	margin: 0 0 20rem 0;
+}
+
+.registration-success-content-container{
+	text-align: center;
+	padding: 150rem 0 0 0;
+	max-width: 420rem;
+}
+
+.registration-success-content-container .response-content-text{
+	font-size: 14rem;
+	line-height: 24rem;
+	letter-spacing: 0;
+}
+
+.response-content-container.registration-success-content-container .response-back-link{
+	padding: 20rem 40rem;
+	background-color: #1a171c;
+	color: #fff;
+	font-size: 13rem;
+	line-height: 20rem;
+	margin: 60rem 0 0 0;
+}
+
+.response-content-container.registration-success-content-container .response-back-link::before,
+.response-content-container.registration-success-content-container .response-back-link::after{
+	display: none;
+}

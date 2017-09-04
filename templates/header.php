@@ -67,7 +67,8 @@
 	|| strpos( $currentpage, 'pa_order_details.php' ) == true 
 	|| strpos( $currentpage, 'pa_profile.php' ) == true 
 	|| strpos( $currentpage, 'pa_profile_add_address.php' ) == true 
-	|| strpos( $currentpage, 'response.php' ) == true ) { echo 'main-header-hide'; } ?>"> <!-- Add class to header if this is "About Brand" page or "Single LookBook Blog Post" -->
+	|| strpos( $currentpage, 'response.php' ) == true 
+	|| strpos( $currentpage, 'registration_success.php' ) == true ) { echo 'main-header-hide'; } ?>"> <!-- Add class to header if this is "About Brand" page or "Single LookBook Blog Post" -->
 		<div class="main-upper-header clearfix">
 			<span class="header-search-btn" role="button"></span>
 			<nav class="header-profile-nav">

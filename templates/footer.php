@@ -19,7 +19,8 @@
 	|| strpos( $currentpage, 'restore_password_step_2.php' ) == true 
 	|| strpos( $currentpage, 'register.php' ) == true 
 	|| strpos( $currentpage, 'pa_orders_history_list.php' ) == true 
-	|| strpos( $currentpage, 'response.php' ) == true ) { echo 'main-footer-hide'; } ?>"> <!-- Add class to footer if this is "Single LookBook Blog Post" -->
+	|| strpos( $currentpage, 'response.php' ) == true 
+	|| strpos( $currentpage, 'registration_success.php') == true ) { echo 'main-footer-hide'; } ?>"> <!-- Add class to footer if this is "Single LookBook Blog Post" -->
 		<div class="clearfix">
 			<div class="footer-menu-wrapper clearfix">
 				<div class="footer-menu-container clearfix">
