@@ -181,10 +181,31 @@
 					</form>
 					<div class="single-product-description clearfix">
 						<p>The Heritage suit’s soft, narrow shoulders, wider lapel, and slim sleeves point to its archival inspiration, while a skinny structured cut keeps it firmly rooted in the now.</p>
-						<ul>
-							<li>Indigo blue wool mohair</li>
-							<li>Jacket with half canvas construction, bee jacquard silk lining, two-button closure, notch lapel, front flap pockets and side vents</li>
-							<li>Pant with on-seam pockets and back besom pockets</li>
+						<ul class="single-product-materials">
+							<li>
+								<dl class="clearfix">
+									<dt>Бавовна</dt>
+									<dd>50 %</dd>
+								</dl>
+							</li>
+							<li>
+								<dl class="clearfix">
+									<dt>Віскоза</dt>
+									<dd>16 %</dd>
+								</dl>
+							</li>
+							<li>
+								<dl class="clearfix">
+									<dt>Поліестер</dt>
+									<dd>32 %</dd>
+								</dl>
+							</li>
+							<li>
+								<dl class="clearfix">
+									<dt>Еластан</dt>
+									<dd>2 %</dd>
+								</dl>
+							</li>
 						</ul>
 					</div>
 				</div>
