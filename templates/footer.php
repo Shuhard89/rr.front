@@ -20,7 +20,8 @@
 	|| strpos( $currentpage, 'register.php' ) == true 
 	|| strpos( $currentpage, 'pa_orders_history_list.php' ) == true 
 	|| strpos( $currentpage, 'response.php' ) == true 
-	|| strpos( $currentpage, 'registration_success.php') == true ) { echo 'main-footer-hide'; } ?>"> <!-- Add class to footer if this is "Single LookBook Blog Post" -->
+	|| strpos( $currentpage, 'registration_success.php') == true 
+	|| strpos( $currentpage, 'login-wrong.php' ) == true ) { echo 'main-footer-hide'; } ?>"> <!-- Add class to footer if this is "Single LookBook Blog Post" -->
 		<div class="clearfix">
 			<div class="footer-menu-wrapper clearfix">
 				<div class="footer-menu-container clearfix">
@@ -474,7 +475,7 @@
 			<script src="js/specific/help_feedback.js"></script>
 			<!-- HELP - FEEDBACK JS (END) -->
 		<?php }
-		if ( strpos( $currentpage, 'login.php' ) == true ) { ?>
+		if ( strpos( $currentpage, 'login.php' ) == true || strpos( $currentpage, 'login-wrong.php' ) == true ) { ?>
 			<!-- PAGE - LOGIN JS -->
 			<script src="js/specific/login.js"></script>
 			<!-- PAGE - LOGIN JS (END) -->
