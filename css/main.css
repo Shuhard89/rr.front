@@ -6057,10 +6057,11 @@ a.login-register-btn{
 }
 
 .login-form-input-wrapper.invalid{
-	border-color: #df3a3e;
+	border-color: #e54b4b;
 }
 
 .login-form-input-wrapper label{
+	width: 120%;
 	display: block;
 	text-transform: uppercase;
 	position: absolute;
@@ -6070,6 +6071,10 @@ a.login-register-btn{
 	transition: all .4s ease;
 	-webkit-transform-origin: 0 100%;
 	        transform-origin: 0 100%;
+}
+
+.login-form-input-wrapper.invalid label{
+	color: #e54b4b;
 }
 
 .login-form-input-wrapper input#user-email{
@@ -6083,6 +6088,11 @@ a.login-register-btn{
 	color: #a9a9a9;
 	top: -15rem;
 	left: 20rem;
+}
+
+.login-form-input-wrapper.invalid input:focus + label,
+.login-form-input-wrapper.invalid input.not-empty + label{
+	color: #e54b4b;
 }
 
 .password-restore-link{
