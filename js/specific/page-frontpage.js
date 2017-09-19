@@ -280,4 +280,15 @@ $(document).ready(function() {
 			});
 		});
 	}
+
+	// Instafeed
+	var feed = new Instafeed({
+	    accessToken: '3444127112.1677ed0.c0f06cec4c9f4cf98089f4174049cd8a',
+		get: 'user',
+		userId: '3444127112',
+		template: '<li><a target="_blank" href="{{link}}" id="{{id}}" class="instagram-block"><img src="{{image}}" class="instagram-image" /><span class="instagram-icon"></span></a></li>',
+		resolution: 'low_resolution',
+		limit: 4
+	});
+	feed.run();
 });

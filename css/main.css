@@ -1686,6 +1686,23 @@ a.front-news-view-all-btn:hover::after {
 	text-transform: uppercase;
 }
 
+.instagram-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.instagram-list > li{
+	width: 25%;
+}
+
+.instagram-list > li > a,
+.instagram-list > li > a img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
 
 
 /* TEMPLATE ABOUT BRAND PAGE */

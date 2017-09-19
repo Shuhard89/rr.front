@@ -422,6 +422,7 @@
 			<script src="js/libs/jquery.stellar.min.js"></script>
 			<script src="js/libs/slick.min.js"></script>
 			<script src="js/libs/jquery.mThumbnailScroller.min.js"></script>
+			<script src="js/libs/instafeed.min.js"></script>
 			<script src="js/specific/page-frontpage.js"></script>
 			<!-- PAGE - FRONT PAGE JS (END) -->
 		<?php }

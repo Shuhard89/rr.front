@@ -269,7 +269,12 @@
 	}
 
 	.section-front-instagram-container{
-		display: none;
+		padding: 0 10rem;
+	}
+
+	.instagram-list > li{
+		width: 50%;
+		padding: 10px;
 	}
 
 	.section-front-instagram-container-mobile{

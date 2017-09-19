@@ -738,14 +738,7 @@
 				</section>
 				<section class="section-front-instagram">
 					<div class="section-front-instagram-container">
-						<!-- LightWidget WIDGET -->
-						<script src="//lightwidget.com/widgets/lightwidget.js" async defer></script>
-						<iframe src="//lightwidget.com/widgets/402e6694709b54929402b8dc6aef30cd.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-					</div>
-					<div class="section-front-instagram-container-mobile">
-						<!-- LightWidget WIDGET -->
-						<script src="//lightwidget.com/widgets/lightwidget.js" async defer></script>
-						<iframe src="//lightwidget.com/widgets/e6f39181229c59c1bb9e1b57c88a9f37.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+						<ul id="instafeed" class="instagram-list"></ul>
 					</div>
 					<div class="section-front-instagram-link-wrapper">
 						<a href="#" target="_blank">#ROYROBSON</a>
