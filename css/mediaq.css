@@ -2387,4 +2387,12 @@
 	.mobile-favourite-link > a::before{
 		background-image: url('../img/icons/icon_favourite.svg');
 	}
+
+	.feedback-modal-succes-msg{
+		padding: 0 20rem;
+	}
+
+	.feedback-modal-succes-msg-block{
+		padding: 50rem 20rem;
+	}
 }

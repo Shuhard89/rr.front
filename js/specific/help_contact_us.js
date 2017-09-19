@@ -82,4 +82,25 @@ $(document).ready(function() {
 	};
 
 	contuctUsForm();
+
+	// Succes message modal example
+	$('.help-form button').on('click', function(event) {
+		event.preventDefault();
+		
+		$('.feedback-dark-overlay').addClass('visible');
+		$('.feedback-modal-succes-msg').addClass('visible');
+		$('html').addClass('overflow-hidden');
+
+		setTimeout(function(){
+			$('.feedback-dark-overlay').removeClass('visible');
+			$('.feedback-modal-succes-msg').removeClass('visible');
+			$('html').removeClass('overflow-hidden');
+		}, 7000);
+
+		$('.feedback-dark-overlay').click(function(event) {
+			$('.feedback-dark-overlay').removeClass('visible');
+			$('.feedback-modal-succes-msg').removeClass('visible');
+			$('html').removeClass('overflow-hidden');
+		});
+	});
 });
