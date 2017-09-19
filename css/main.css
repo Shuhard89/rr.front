@@ -9222,3 +9222,67 @@ a.modal-cart-submit-btn{
 .response-content-container.registration-success-content-container .response-back-link::after{
 	display: none;
 }
+
+
+
+
+
+/* 404 PAGE TEMPLATE */
+
+.container-404{
+	padding: 150rem 0 0 0;
+}
+
+.container-404-content{
+	width: 420rem;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 20rem;
+}
+
+.container-404-content h1{
+	font-weight: normal;
+	font-size: 22rem;
+	line-height: 32rem;
+	letter-spacing: .5rem;
+	text-transform: uppercase;
+	margin: 0 0 20rem 0;
+}
+
+.container-404-content p{
+	font-weight: 300;
+	font-size: 15rem;
+	line-height: 25rem;
+	margin: 0;
+}
+
+.container-404-content p a{
+	display: inline-block;
+	position: relative;
+	font-weight: normal;
+}
+
+.container-404-content p a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1.4rem;
+	background-color: #1a171c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+a.go-back-404-btn{
+	display: inline-block;
+	padding: 20rem 50rem;
+	background-color: #1a171c;
+	font-weight: 600;
+	font-size: 13rem;
+	line-height: 20rem;
+	letter-spacing: .5rem;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 50rem 0 0 0;
+}

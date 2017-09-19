@@ -21,7 +21,8 @@
 	|| strpos( $currentpage, 'pa_orders_history_list.php' ) == true 
 	|| strpos( $currentpage, 'response.php' ) == true 
 	|| strpos( $currentpage, 'registration_success.php') == true 
-	|| strpos( $currentpage, 'login-wrong.php' ) == true ) { echo 'main-footer-hide'; } ?>"> <!-- Add class to footer if this is "Single LookBook Blog Post" -->
+	|| strpos( $currentpage, 'login-wrong.php' ) == true 
+	|| strpos( $currentpage, '404.php' ) == true ) { echo 'main-footer-hide'; } ?>"> <!-- Add class to footer if this is "Single LookBook Blog Post" -->
 		<div class="clearfix">
 			<div class="footer-menu-wrapper clearfix">
 				<div class="footer-menu-container clearfix">

@@ -2395,4 +2395,8 @@
 	.feedback-modal-succes-msg-block{
 		padding: 50rem 20rem;
 	}
+
+	.container-404{
+		padding: 50rem 0 0 0;
+	}
 }
