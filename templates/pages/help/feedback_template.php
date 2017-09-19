@@ -36,3 +36,10 @@
 		</article>
 	</main>
 </div>
+<div class="feedback-dark-overlay"></div>
+<div class="feedback-modal-succes-msg">
+	<div class="feedback-modal-succes-msg-block">
+		<h6>Ваш отзыв отправлен</h6>
+		<p>Благодарим вас за обращение в нашу компанию. В ближайшее время мы ответим на ваш запрос.</p>
+	</div>
+</div>
