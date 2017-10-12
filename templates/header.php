@@ -72,6 +72,16 @@
 	|| strpos( $currentpage, 'login-wrong.php' ) == true ) { echo 'main-header-hide'; } ?>"> <!-- Add class to header if this is "About Brand" page or "Single LookBook Blog Post" -->
 		<div class="main-upper-header clearfix">
 			<span class="header-search-btn" role="button"></span>
+			<div class="language-chooser">
+				<ul>
+					<li class="active">
+						<a href="#">RU</a>
+					</li>
+					<li>
+						<a href="#">UA</a>
+					</li>
+				</ul>
+			</div>
 			<nav class="header-profile-nav">
 				<ul class="clearfix">
 					<li class="header-profile-link">
@@ -314,6 +324,16 @@
 		<a href="#" class="mobile-header-btn search"></a>
 	</div>
 	<div class="mobile-header-menu-sidebar">
+		<div class="mobile-language-chooser">
+			<ul>
+				<li class="active">
+					<a href="#">RU</a>
+				</li>
+				<li>
+					<a href="#">UA</a>
+				</li>
+			</ul>
+		</div>
 		<ul class="mobile-header-menu-list">
 			<li>
 				<a href="category_products.php">Костюмы</a>

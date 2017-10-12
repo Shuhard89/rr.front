@@ -181,6 +181,50 @@ button{
 	cursor: pointer;
 }
 
+.language-chooser{
+	float: left;
+	font-size: 13rem;
+	line-height: 40rem;
+	text-transform: uppercase;
+	margin: 0 0 0 7rem;
+}
+
+.language-chooser > ul > li{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.language-chooser > ul > li > a{
+	display: block;
+	color: #fff;
+	padding: 0 7rem;
+	opacity: .35;
+	transition: opacity .3s ease;
+}
+
+.language-chooser > ul > li.active > a{
+	opacity: 1;
+}
+
+.language-chooser > ul > li > a:hover{
+	opacity: 1;
+}
+
+.mobile-language-chooser{
+	margin: 0 0 20rem 0;
+}
+
+.mobile-language-chooser li{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 7rem 0 0;
+	opacity: .35;
+}
+
+.mobile-language-chooser li.active{
+	opacity: 1;
+}
+
 .header-profile-nav{
 	height: 100%;
 	float: right;
