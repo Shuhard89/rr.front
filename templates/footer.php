@@ -337,9 +337,15 @@
 							</div>
 						</div>
 					</div>
-					<button type="submit" class="single-product-form-btn add-to-cart">Добавить в корзину</button>
-					<a href="pa_favourite.php" class="single-product-form-btn add-to-favourites">Добавить в избранное</a>
-					<a href="single_product.php" class="single-product-form-btn more">Подробнее</a>
+					<button type="submit" class="single-product-form-btn add-to-cart" data-text-hover="Добавить в корзину">
+						<span>Добавить в корзину</span>
+					</button>
+					<a href="pa_favourite.php" class="single-product-form-btn add-to-favourites" data-text-hover="Добавить в избранное">
+						<span>Добавить в избранное</span>
+					</a>
+					<a href="single_product.php" class="single-product-form-btn more" data-text-hover="Подробнее">
+						<span>Подробнее</span>
+					</a>
 				</form>
 			</div>
 		</div>
