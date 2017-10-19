@@ -308,4 +308,39 @@ $(document).ready(function() {
 
 	// Object fit polyfill
 	objectFitImages();
+
+	// Basic modal object
+	var basicModal = {
+		modal: 			$('.modal-basic'),
+		modalHeading: 			$('.basic-modal-heading'),
+		modalText: 			$('.basic-modal-text'),
+		closeBtn: 		$('.close-basic-modal-btn'),
+		html: 			$('html'),
+		openBasicModal: function(){
+			this.modal.addClass('visible');
+			this.html.addClass('overflow-hidden');
+		},
+		closeBasicModal: function(){
+			this.modal.removeClass('visible');
+			this.html.removeClass('overflow-hidden');
+		}
+	};
+
+	// Close modal
+	basicModal.closeBtn.on('click', function(event) {
+		event.preventDefault();
+		basicModal.closeBasicModal();
+	});
+
+	// Open modal and change content
+	$('.add-to-favourites, .add-to-cart').on('click', function(event) {
+		event.preventDefault();
+
+		var thisModalHeadingContent = $(this).attr('data-modal-heading'),
+			thisModalTextContent = $(this).attr('data-modal-text');
+
+		basicModal.modalHeading.html(thisModalHeadingContent);
+		basicModal.modalText.html(thisModalTextContent);
+		basicModal.openBasicModal();
+	});
 });

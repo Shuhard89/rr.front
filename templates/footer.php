@@ -337,10 +337,10 @@
 							</div>
 						</div>
 					</div>
-					<button type="submit" class="single-product-form-btn add-to-cart" data-text-hover="Добавить в корзину">
+					<button type="submit" class="single-product-form-btn add-to-cart" data-text-hover="Добавить в корзину" data-modal-heading="Товар добавлен в корзину" data-modal-text="Все добавленные товары вы можете посмотреть в корзине">
 						<span>Добавить в корзину</span>
 					</button>
-					<a href="pa_favourite.php" class="single-product-form-btn add-to-favourites" data-text-hover="Добавить в избранное">
+					<a href="pa_favourite.php" class="single-product-form-btn add-to-favourites" data-text-hover="Добавить в избранное" data-modal-heading="Товар добавлен в избранное" data-modal-text="Все добавленные товары вы можете посмотреть в избранном">
 						<span>Добавить в избранное</span>
 					</a>
 					<a href="single_product.php" class="single-product-form-btn more" data-text-hover="Подробнее">
@@ -408,6 +408,15 @@
 				<span class="modal-cart-total-price">75 000 грн</span>
 			</div>
 			<a href="order.php" class="modal-cart-submit-btn">Оформить заказ</a>
+		</div>
+	</div>
+
+	<!-- BASIC MODAL -->
+	<div class="modal-basic">
+		<div class="modal-basic-msg">
+			<div class="close-basic-modal-btn"></div>
+			<span class="basic-modal-heading"></span>
+			<span class="basic-modal-text"></span>
 		</div>
 	</div>
 
