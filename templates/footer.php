@@ -354,60 +354,72 @@
 	<!-- SHOPPING CART MODAL -->
 	<div class="modal-shopping-cart">
 		<div class="modal-shopping-cart-close-btn"></div>
-		<div class="modal-shopping-cart-content">
-			<ul class="modal-shopping-cart-list">
-				<li>
-					<div class="modal-shopping-cart-item-preview">
-						<a href="single_product.php">
-							<img src="img/placeholder_content/products/thumbnails/suit_01.png" alt="Title">
-						</a>
+		<div class="modal-shopping-cart-content-wrapper">
+			<?php
+				$currentpage = $_SERVER['REQUEST_URI'];
+				if ( strpos( $currentpage, 'category_products.php' ) == true ) { ?>
+					<div class="empty-cart-sidebar-content">
+						<span class="empty-cart-sidebar-message">Корзина пуста</span>
 					</div>
-					<div class="modal-shopping-cart-item-info">
-						<a href="category_products.php" class="modal-shopping-cart-item-category-link">Костюмы Roy Robson</a>
-						<h6>
-							<a href="single_product.php">Темно-серый костюм</a>
-						</h6>
-						<ul class="modal-shopping-cart-item-attr-list">
-							<li>102</li>
-							<li>Slim</li>
-							<li class="modal-shopping-cart-item-attr-count">Количество: 1</li>
+				<?php }
+				else { ?>
+					<div class="modal-shopping-cart-content">
+						<ul class="modal-shopping-cart-list">
+							<li>
+								<div class="modal-shopping-cart-item-preview">
+									<a href="single_product.php">
+										<img src="img/placeholder_content/products/thumbnails/suit_01.png" alt="Title">
+									</a>
+								</div>
+								<div class="modal-shopping-cart-item-info">
+									<a href="category_products.php" class="modal-shopping-cart-item-category-link">Костюмы Roy Robson</a>
+									<h6>
+										<a href="single_product.php">Темно-серый костюм</a>
+									</h6>
+									<ul class="modal-shopping-cart-item-attr-list">
+										<li>102</li>
+										<li>Slim</li>
+										<li class="modal-shopping-cart-item-attr-count">Количество: 1</li>
+									</ul>
+									<div class="modal-shopping-cart-item-price-del-wrapper">
+										<span class="modal-shopping-cart-item-attr-price">45 000 ГРН</span>
+										<span class="modal-shopping-cart-item-attr-old-price">75 000 ГРН</span>
+										<a href="#" class="modal-shopping-cart-item-del-btn"></a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="modal-shopping-cart-item-preview">
+									<a href="single_product.php">
+										<img src="img/placeholder_content/category_looks/complects/shoes.png" alt="Title">
+									</a>
+								</div>
+								<div class="modal-shopping-cart-item-info">
+									<a href="category_products.php" class="modal-shopping-cart-item-category-link">Туфли Roy Robson</a>
+									<h6>
+										<a href="single_product.php">Черные классические туфли</a>
+									</h6>
+									<ul class="modal-shopping-cart-item-attr-list">
+										<li>44</li>
+										<li class="modal-shopping-cart-item-attr-count">Количество: 1</li>
+									</ul>
+									<div class="modal-shopping-cart-item-price-del-wrapper">
+										<span class="modal-shopping-cart-item-attr-price">19 000 ГРН</span>
+										<a href="#" class="modal-shopping-cart-item-del-btn"></a>
+									</div>
+								</div>
+							</li>
 						</ul>
-						<div class="modal-shopping-cart-item-price-del-wrapper">
-							<span class="modal-shopping-cart-item-attr-price">45 000 ГРН</span>
-							<span class="modal-shopping-cart-item-attr-old-price">75 000 ГРН</span>
-							<a href="#" class="modal-shopping-cart-item-del-btn"></a>
+					</div>
+					<div class="modal-shopping-cart-bottom">
+						<div class="modal-cart-total clearfix">
+							<span class="modal-cart-total-heading">Всего</span>
+							<span class="modal-cart-total-price">75 000 грн</span>
 						</div>
+						<a href="order.php" class="modal-cart-submit-btn">Оформить заказ</a>
 					</div>
-				</li>
-				<li>
-					<div class="modal-shopping-cart-item-preview">
-						<a href="single_product.php">
-							<img src="img/placeholder_content/category_looks/complects/shoes.png" alt="Title">
-						</a>
-					</div>
-					<div class="modal-shopping-cart-item-info">
-						<a href="category_products.php" class="modal-shopping-cart-item-category-link">Туфли Roy Robson</a>
-						<h6>
-							<a href="single_product.php">Черные классические туфли</a>
-						</h6>
-						<ul class="modal-shopping-cart-item-attr-list">
-							<li>44</li>
-							<li class="modal-shopping-cart-item-attr-count">Количество: 1</li>
-						</ul>
-						<div class="modal-shopping-cart-item-price-del-wrapper">
-							<span class="modal-shopping-cart-item-attr-price">19 000 ГРН</span>
-							<a href="#" class="modal-shopping-cart-item-del-btn"></a>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<div class="modal-shopping-cart-bottom">
-			<div class="modal-cart-total clearfix">
-				<span class="modal-cart-total-heading">Всего</span>
-				<span class="modal-cart-total-price">75 000 грн</span>
-			</div>
-			<a href="order.php" class="modal-cart-submit-btn">Оформить заказ</a>
+				<?php }
+			?>
 		</div>
 	</div>
 

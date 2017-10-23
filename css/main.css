@@ -8375,6 +8375,30 @@ a.modal-cart-submit-btn{
 	background-repeat: no-repeat;
 }
 
+.modal-shopping-cart-content-wrapper{
+	height: 100%;
+}
+
+.empty-cart-sidebar-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	height: 100%;
+	color: #ccc;
+}
+
+.empty-cart-sidebar-message{
+	display: block;
+	width: 100%;
+	font-size: 26rem;
+	line-height: 36rem;
+	text-transform: uppercase;
+	letter-spacing: 1rem;
+	padding: 0 20rem;
+	font-weight: 300;
+}
+
 
 
 
