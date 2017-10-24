@@ -292,11 +292,15 @@
 										</ul>
 									</div>
 									<div class="order-details-product-count-price">
-										<span>1</span>
+										<span class="minus-quantity"></span>
+										<span class="quantity-placeholder">1</span>
+										<span class="plus-quantity"></span>
+										<input type="hidden" name="product-quantity-50330733" value="1">
 									</div>
 									<div class="order-details-product-count-price">
 										<span>45 000 грн.</span>
 									</div>
+									<div class="order-remove-product-btn" title="Удалить из корзины"></div>
 								</li>
 								<li class="clearfix">
 									<div class="order-details-product-img">
@@ -306,7 +310,7 @@
 										<h2>
 											<a href="#">Black Classic Small Shoulder Bag</a>
 										</h2>
-										<p>Style No. 50330733</p>
+										<p>Style No. 50330734</p>
 									</div>
 									<div class="order-details-product-options">
 										<ul>
@@ -317,11 +321,15 @@
 										</ul>
 									</div>
 									<div class="order-details-product-count-price">
-										<span>1</span>
+										<span class="minus-quantity"></span>
+										<span class="quantity-placeholder">1</span>
+										<span class="plus-quantity"></span>
+										<input type="hidden" name="product-quantity-50330734" value="1">
 									</div>
 									<div class="order-details-product-count-price">
 										<span>7 600 грн.</span>
 									</div>
+									<div class="order-remove-product-btn" title="Удалить из корзины"></div>
 								</li>
 							</ul>
 						</div>

@@ -110,4 +110,26 @@ $(document).ready(function() {
 		$('input[name="showroom-number"]').val(thisContent).parent().removeClass('list-visible');
 		$('.showroom-shops-radio-wrapper').stop().slideUp('normal');
 	});
+
+
+	// Product quantity change
+	$('.plus-quantity').click(function() {
+		var $hiddenInput = $(this).closest('.order-details-product-count-price').find('input'),
+			$quantitySpan = $(this).closest('.order-details-product-count-price').find('.quantity-placeholder'),
+			$currentQtt = $hiddenInput.val();
+
+		$hiddenInput.val( +$currentQtt + 1 );
+		$quantitySpan.html( +$currentQtt + 1 );
+	});
+
+	$('.minus-quantity').click(function() {
+		var $hiddenInput = $(this).closest('.order-details-product-count-price').find('input'),
+			$quantitySpan = $(this).closest('.order-details-product-count-price').find('.quantity-placeholder'),
+			$currentQtt = $hiddenInput.val();
+
+		if ( +$currentQtt > 1 ){
+			$hiddenInput.val( +$currentQtt - 1 );
+			$quantitySpan.html( +$currentQtt - 1 );
+		}
+	});
 });

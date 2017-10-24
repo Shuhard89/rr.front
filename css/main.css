@@ -6826,6 +6826,7 @@ a.order-details-btn{
 
 .order-details-product-options ul > li{
 	margin: 0 0 15rem 0;
+	position: relative;
 }
 
 .order-details-product-options ul > li:last-of-type{
@@ -6859,6 +6860,37 @@ a.order-details-btn{
 	font-size: 20rem;
 	line-height: 22rem;
 	letter-spacing: 1rem;
+	user-select: none;
+}
+
+.minus-quantity,
+.plus-quantity{
+	display: inline-block;
+	vertical-align: top;
+	width: 20rem;
+	height: 22rem;
+	background-image: url('../img/icons/icon_minus_pp.svg');
+	background-size: 10rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.plus-quantity{
+	background-image: url('../img/icons/icon_plus_pp.svg');
+}
+
+.order-remove-product-btn{
+	width: 30rem;
+	height: 30rem;
+	position: absolute;
+	top: calc(50% - 15rem);
+	right: -50rem;
+	background-image: url('../img/icons/icon_close.svg');
+	background-size: 12rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
 }
 
 
