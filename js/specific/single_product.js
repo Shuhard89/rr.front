@@ -83,20 +83,21 @@ $(document).ready(function() {
 
 	// Products mouse scroll
 	if ( $(window).width() > 767 ){
-		$(".front-products-list-wrapper").mThumbnailScroller({
-			axis: "x",
-			speed: 100,
-			type: "hover-70",
-			updateOnContentResize: true,
-			markup:{ 
-				thumbnailsContainer: ".front-products-list",
-				thumbnailContainer: ".front-products-list > li"
-			},
-	        advanced:{
-	            updateOnContentResize:false,
-	            updateOnImageLoad:false,
-	        }
-		});
+		$(".section-single-product-look-may-like-content").imagesLoaded( function() {
+			$(".front-products-list-wrapper").mThumbnailScroller({
+				axis: "x",
+				speed: 100,
+				type: "hover-70",
+				markup:{ 
+					thumbnailsContainer: ".front-products-list",
+					thumbnailContainer: ".front-products-list > li"
+				},
+		        advanced:{
+		            updateOnContentResize:true,
+		            updateOnImageLoad:true
+		        }
+			});
+		} );
 	}
 
 
