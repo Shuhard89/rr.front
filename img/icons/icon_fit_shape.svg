@@ -1,30 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="25px" height="30px" viewBox="0 0 25 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
-    <title>icon_hape</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Карточка-товара" transform="translate(-1175.000000, -1082.000000)" fill-rule="nonzero" fill="#000000">
-            <g id="icon_hape" transform="translate(1175.000000, 1082.000000)">
-                <g id="Group">
-                    <g id="Layer_5_" transform="translate(1.041667, 0.000000)">
-                        <g id="Layer">
-                            <path d="M12.8125,1.01694915 L13.59375,2.89830508 L13.75,3.30508475 L14.1666667,3.45762712 L21.6666667,6.66101695 L17.7604167,19.5254237 L17.65625,19.8305085 L17.7083333,20.0847458 L20,28.9830508 L2.91666667,28.9830508 L5.20833333,20.0847458 L5.26041667,19.8305085 L5.15625,19.5762712 L1.25,6.66101695 L8.75,3.45762712 L9.16666667,3.30508475 L9.32291667,2.89830508 L10.1041667,1.01694915 L12.8125,1.01694915 L12.8125,1.01694915 Z M13.5416667,0 L9.375,0 L8.33333333,2.54237288 L0,6.10169492 L4.16666667,19.8305085 L1.5625,30 L21.3541667,30 L18.75,19.8305085 L22.9166667,6.10169492 L14.5833333,2.54237288 L13.5416667,0 L13.5416667,0 Z" id="Shape"></path>
-                        </g>
-                    </g>
-                    <g id="Layer_4_" transform="translate(23.958333, 14.237288)">
-                        <g id="Layer_1_">
-                            <rect id="Rectangle-path" x="0" y="0" width="1.04166667" height="11.1864407"></rect>
-                        </g>
-                    </g>
-                    <g id="Layer_3_" transform="translate(0.000000, 14.237288)">
-                        <g id="Layer_2_">
-                            <rect id="Rectangle-path" x="0" y="0" width="1.04166667" height="11.1864407"></rect>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="25px" height="30px" viewBox="0 0 25 30" style="enable-background:new 0 0 25 30;" xml:space="preserve">
+<title>icon_slim</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Карточка-товара" transform="translate(-1175.000000, -1037.000000)">
+		<g id="icon_slim" transform="translate(1175.000000, 1037.000000)">
+			<g id="Group">
+				<g id="Layer_5_" transform="translate(1.041667, 0.000000)">
+					<g id="Layer">
+						<path id="Shape" d="M12.8,1l0.8,1.9l0.2,0.4l0.4,0.2l7.5,3.2l-3.9,12.9l-0.1,0.3l0.1,0.3L20,29H2.9l2.3-8.9l0.1-0.3l-0.1-0.3
+							L1.3,6.7l7.5-3.2l0.4-0.2l0.2-0.4L10.1,1H12.8L12.8,1z M13.5,0H9.4l-1,2.5L0,6.1l4.2,13.7L1.6,30h19.8l-2.6-10.2l4.2-13.7
+							l-8.3-3.6L13.5,0L13.5,0z"/>
+					</g>
+				</g>
+				<g>
+					<path d="M25,14.2h-1l0,0c-1.3,3.6-1.3,7.6,0,11.2l0,0h1l0,0C23.7,21.8,23.7,17.8,25,14.2L25,14.2z"/>
+				</g>
+				<g>
+					<path d="M1,14.2H0l0,0c1.3,3.6,1.3,7.6,0,11.2l0,0h1l0,0C2.4,21.8,2.4,17.8,1,14.2L1,14.2z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

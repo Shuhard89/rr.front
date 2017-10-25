@@ -153,6 +153,17 @@
 								<span class="single-product-size-table">Таблица размеров</span>
 							</div>
 						</div>
+						<div class="single-product-field-wrapper single-product-field-wrapper-fit">
+							<div class="single-product-field-heading clearfix">
+								<span class="single-product-field-caption">Посадка</span>
+								<span class="single-product-field-value">
+									<span>Slim</span>
+									<img src="img/icons/icon_fit_slim.svg" alt="Slim">
+									<img src="img/icons/icon_fit_shape.svg" alt="Slim">
+									<img src="img/icons/icon_fit_regular.svg" alt="Slim">
+								</span>
+							</div>
+						</div>
 						<div class="single-product-field-wrapper single-product-field-wrapper-price">
 							<div class="single-product-field-heading clearfix">
 								<span class="single-product-field-caption">Цена</span>

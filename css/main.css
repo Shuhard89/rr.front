@@ -7619,6 +7619,26 @@ a.order-details-btn{
 	margin: 0 0 28rem 0;
 }
 
+.single-product-field-wrapper-fit .single-product-field-value,
+.single-product-field-wrapper-fit .single-product-field-caption{
+	margin: 0;
+}
+
+.single-product-field-wrapper-fit .single-product-field-value{
+	font-size: 14rem;
+	line-height: 27rem;
+	letter-spacing: .6rem;
+	margin: -4rem 0 0 0;
+}
+
+.single-product-field-wrapper-fit .single-product-field-value img{
+	display: inline-block;
+	vertical-align: top;
+	height: 26rem;
+	width: auto;
+	margin: 0 0 0 10rem;
+}
+
 .single-product-description ul,
 .single-product-description ol{
 	margin: 30rem 0;
