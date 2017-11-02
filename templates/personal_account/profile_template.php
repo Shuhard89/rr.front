@@ -45,7 +45,7 @@
 		</ul>
 	</div>
 	<div class="pa-profile-content">
-		<div class="pa-profile-content-left">
+		<div class="pa-profile-content-container">
 			<h2>Общая информация</h2>
 			<form action="#" method="POST" class="profile-edit-form" id="profile-edit-form">
 				<div class="register-flex-inputs-wrapper">
@@ -88,43 +88,6 @@
 				</div>
 			</form>
 		</div>
-		<div class="pa-profile-content-right">
-			<div class="pa-profile-content-right-content-wrapper">
-				<h2>Адреса</h2>
-				<ul class="profile-adresses-list">
-					<li>
-						<div class="profile-adresses-list-item-pane">
-							<h3>Рабочий адрес</h3>
-							<address>
-								Киев, Украина
-								<br>
-								Новая Почта: Отделение № 11
-							</address>
-						</div>
-						<div class="address-edit-controls-wrapper">
-							<a href="#" class="address-edit" title="Редактировать"></a>
-							<a href="#" class="address-delete" title="Удалить"></a>
-						</div>
-					</li>
-					<li>
-						<div class="profile-adresses-list-item-pane">
-							<h3>Домашний адрес</h3>
-							<address>
-								Киев, Украина
-								<br>
-								ул. Леси Украинки 22, кв. 78
-							</address>
-						</div>
-						<div class="address-edit-controls-wrapper">
-							<a href="#" class="address-edit" title="Редактировать"></a>
-							<a href="#" class="address-delete" title="Удалить"></a>
-						</div>
-					</li>
-				</ul>
-				<div class="mobile-center clearfix">
-					<a href="pa_profile_add_address.php" class="profile-add-address">Добавить адрес</a>
-				</div>
-			</div>
-		</div>
+		<a href="#" class="profile-logout-btn">Выйти из личного кабинета</a>
 	</div>
 </div>

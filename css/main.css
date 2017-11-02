@@ -6918,17 +6918,45 @@ a.order-details-btn{
 .pa-profile-content{
 	width: 100%;
 	min-height: calc(100vh - 76rem);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: nowrap;
-	    flex-wrap: nowrap;
 }
 
-.pa-profile-content-left{
-	width: 100%;
-	max-width: 860rem;
-	padding: 80rem 60rem 150rem 140rem;
+.pa-profile-content-container{
+	width: 660rem;
+	max-width: 100%;
+	padding: 80rem 0 150rem 0;
+	margin: 0 auto;
+}
+
+.profile-logout-btn{
+	display: block;
+	font-size: 12rem;
+	line-height: 20rem;
+	letter-spacing: .5rem;
+	text-transform: uppercase;
+	padding: 10rem 50rem 10rem 0;
+	position: fixed;
+	top: 116rem;
+	right: 40rem;
+}
+
+.profile-logout-btn::after{
+	content: '';
+	display: block;
+	width: 40rem;
+	height: 40rem;
+	background-image: url('../img/icons/Icon_exit.svg');
+	-webkit-background-size: 26rem 26rem;
+	background-size: 26rem 26rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transition: transform .3s ease;
+}
+
+.profile-logout-btn:hover::after{
+	transform: translateX(-5rem);
 }
 
 .pa-profile-content-right{
@@ -7058,7 +7086,7 @@ a.order-details-btn{
 	background-position: center center;
 }
 
-.pa-profile-content-left > h2{
+.pa-profile-content-container > h2{
 	font-weight: normal;
 	font-size: 11rem;
 	line-height: 20rem;
