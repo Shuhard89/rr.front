@@ -25,7 +25,7 @@ $(document).ready(function() {
 		});
 	};
 
-	sizeChartsSlider();
+	// sizeChartsSlider();
 
 	// Size charts measure help
 	function measureHelp(){
@@ -41,5 +41,5 @@ $(document).ready(function() {
 		});
 	};
 
-	measureHelp();
+	// measureHelp();
 });

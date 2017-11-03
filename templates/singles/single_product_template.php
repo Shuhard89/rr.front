@@ -643,56 +643,18 @@
 <div class="modal-size-table">
 	<div class="modal-size-table-close-btn"></div>
 	<div class="modal-size-table-content">
-		<section class="size-charts-costumes-wrapper">
-			<h2>Костюмы</h2>
-			<p>The measurements given refer to body measurements.</p>
-			<div class="clearfix">
-				<div class="size-charts-costumes-slider">
-					<div class="size-charts-costumes-slider-controls-wrapper clearfix">
-						<span>Размеры</span>
-						<ul class="clearfix">
-							<li>Средний</li>
-							<li>Высокий</li>
-							<li>Низкий</li>
-						</ul>
-					</div>
-					<div class="size-charts-costumes-slider-list-wrapper">
-						<ul>
-							<li>
-								<img src="img/placeholder_content/page_help_size_charts/size_chart_costumes.svg" alt="Costumes Size Chart - Medium">
-							</li>
-							<li>
-								<img src="img/placeholder_content/page_help_size_charts/size_chart_costumes.svg" alt="Costumes Size Chart - Tall">
-							</li>
-							<li>
-								<img src="img/placeholder_content/page_help_size_charts/size_chart_costumes.svg" alt="Costumes Size Chart - Short">
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="size-charts-measure-help">
-					<div class="size-charts-measure-help-man-img-wrapper">
-						<div class="size-charts-measure-help-man-img-container">
-							<img src="img/icons/icon_man.svg" alt="Measurement">
-							<span class="size-charts-measure-help-man-circle" id="circle1">1</span>
-							<span class="size-charts-measure-help-man-circle" id="circle2">2</span>
-							<span class="size-charts-measure-help-man-circle" id="circle3">3</span>
-							<span class="size-charts-measure-help-man-circle" id="circle4">4</span>
-							<span class="size-charts-measure-help-man-circle" id="circle5">5</span>
-							<span class="size-charts-measure-help-man-circle" id="circle6">6</span>
-						</div>
-					</div>
-					<div class="size-charts-measure-help-text">
-						<p class="circle1 active">Measure around the middle of your neck, at the Adam's apple.</p>
-						<p class="circle2">Measure around the fullest part of your chest and shoulder blades by dropping your arms loosely to the sides.</p>
-						<p class="circle3">Measure around your natural waistline at the belly button.</p>
-						<p class="circle4">Measure at the widest part of your hip.</p>
-						<p class="circle5">Measure from the middle of back of your neck to the wrist.</p>
-						<p class="circle6">Measure from the top of your inside leg at the crotch to the ground without shoes.</p>
-					</div>
-				</div>
-			</div>
-		</section>
+		<div class="t-short-sizes-wrapper">
+			<img src="img/placeholder_content/page_help_size_charts/t_shorts.svg">
+		</div>
+		<div class="costumes-sizes-wrapper">
+			<img src="img/placeholder_content/page_help_size_charts/costumes.svg">
+		</div>
+		<div class="pants-sizes-wrapper">
+			<img src="img/placeholder_content/page_help_size_charts/pants.svg">
+		</div>
+		<div class="shoes-sizes-wrapper">
+			<img src="img/placeholder_content/page_help_size_charts/shoes.svg">
+		</div>
 	</div>
 </div>
 
