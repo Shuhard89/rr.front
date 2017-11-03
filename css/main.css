@@ -5234,6 +5234,42 @@ a.blog-post-header-category-link:hover{
 	letter-spacing: .2rem;
 }
 
+.t-short-sizes-wrapper{
+	margin: 0 0 72rem 0;
+}
+
+.t-short-sizes-wrapper img{
+	display: block;
+	width: 810rem;
+	max-width: 100%;
+}
+
+.costumes-sizes-wrapper{
+	margin: 0 0 69rem 0;
+}
+
+.costumes-sizes-wrapper img{
+	display: block;
+	width: 660rem;
+	max-width: 100%;
+}
+
+.pants-sizes-wrapper{
+	margin: 0 0 130rem 0;
+}
+
+.pants-sizes-wrapper img{
+	display: block;
+	width: 760rem;
+	max-width: 100%;
+}
+
+.shoes-sizes-wrapper img{
+	display: block;
+	width: 560rem;
+	max-width: 100%;
+}
+
 
 
 
