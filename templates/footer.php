@@ -233,7 +233,7 @@
 							<span class="single-product-field-value">Grey Wool Pattern</span>
 						</div>
 						<div class="clearfix">
-							<ul class="single-product-colors-list clearfix">
+							<ul class="single-product-colors-list single-product-patterns-list clearfix">
 								<li>
 									<input type="radio" name="pattern" value="black" id="pattern-black">
 									<label for="pattern-black" style="background-color: #242733;"></label>
@@ -430,6 +430,11 @@
 			<span class="basic-modal-heading"></span>
 			<span class="basic-modal-text"></span>
 		</div>
+	</div>
+
+	<!-- TEXTURE TIP -->
+	<div class="texture-tip">
+		<img src="" alt="Texture enlarged">
 	</div>
 
 	<!-- MAIN JS -->

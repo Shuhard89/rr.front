@@ -358,4 +358,34 @@ $(document).ready(function() {
 			$(this).remove();
 		});
 	})
+
+
+	// Textute tip
+	function textureTip(){
+		var $hoveredElements = $('.filter-checkboxes-texture > ul > li, .single-product-patterns-list > li'),
+			$tip = $('.texture-tip'),
+			$enlargedPatternImg = $tip.find('img');
+
+		// Events
+		$hoveredElements.hover(function() {
+			$tip.addClass('visible');
+			// Replace src with ajax
+			// $enlargedPatternImg.attr('src', new_url);
+		}, function() {
+			$tip.removeClass('visible');
+		});
+
+		// Mouse move
+		$(document).mousemove(function(event) {
+			var offsetX = event.clientX,
+				offsetY = event.clientY;
+
+			$tip.css({
+				'left': offsetX + 'px',
+				'top': offsetY - $(window).width()/1360*100 + 'px',
+			});
+		});
+	}
+
+	textureTip();
 });

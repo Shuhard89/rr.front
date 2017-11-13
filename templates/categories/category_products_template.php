@@ -199,20 +199,12 @@
 						</li>
 						<li>
 							<span class="products-filter-list-item-caption">Текстура</span>
-							<div class="filter-checkboxes-container filter-checkboxes-color">
+							<div class="filter-checkboxes-container filter-checkboxes-color filter-checkboxes-texture">
 								<ul>
 									<li>
 										<span style="background-color: #1a171c;"></span>
 										<input type="checkbox" name="pattern_black" id="pattern_black">
 										<label for="pattern_black">Черный</label>
-										<div class="pattern-info-icon"></div>
-										<div class="pattern-info-tip clearfix">
-											<div class="pattern-info-tip-image" style="background-image: url(''); background-color: #1a171c;"></div>
-											<div class="pattern-info-tip-text-wrapper">
-												<h6>Черный</h6>
-												<p>Jacket with half canvas construction, bee jacquard silk lining, two-button closure, notch lapel, front flap pockets and side vents</p>
-											</div>
-										</div>
 									</li>
 									<li>
 										<span style="background-color: #002147;"></span>
