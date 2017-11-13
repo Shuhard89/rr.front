@@ -68,7 +68,7 @@ $(document).ready(function() {
 	// Fixed filter
 	function fixedFilter(){
 		$(window).scroll(function(event) {
-			if ( $(window).scrollTop() > $(document).height() - $('.main-footer').outerHeight() - $(window).height() ){
+			if ( $(window).scrollTop() > $(document).height() - $('.main-footer').outerHeight() - $(window).height()/1.5 ){
 				$('.products-filter-wrapper').addClass('hidden');
 			} else {
 				$('.products-filter-wrapper').removeClass('hidden');
