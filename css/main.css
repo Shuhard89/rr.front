@@ -2625,11 +2625,13 @@ a.front-news-view-all-btn:hover::after {
 }
 
 .empty-product-category-msg{
-	padding: 0 40rem;
-	font-weight: 500;
+	padding: 100rem 0 0 0;
+	font-weight: 300;
 	font-size: 22rem;
 	line-height: 32rem;
 	letter-spacing: 1rem;
+	color: #afafaf;
+	text-align: center;
 	margin: 0;
 }
 
