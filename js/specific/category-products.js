@@ -258,4 +258,21 @@ $(document).ready(function() {
 			$('html').removeClass('overflow-hidden');
 		});
 	}
+
+	// Modal Size Charts
+	$('.products-filter-sizes-table-link').on('click', function(event) {
+		event.preventDefault();
+		
+		$('.modal-size-table').addClass('visible');
+		$('.search-modal-dark-overlay').addClass('visible');
+		$('html').addClass('overflow-hidden');
+	});
+
+	$('.search-modal-dark-overlay, .modal-size-table-close-btn').on('click', function(event) {
+		event.preventDefault();
+
+		$('.modal-size-table').removeClass('visible');
+		$('.search-modal-dark-overlay').removeClass('visible');
+		$('html').removeClass('overflow-hidden');
+	});
 });
