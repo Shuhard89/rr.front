@@ -2624,6 +2624,15 @@ a.front-news-view-all-btn:hover::after {
 	pointer-events: all;
 }
 
+.empty-product-category-msg{
+	padding: 0 40rem;
+	font-weight: 500;
+	font-size: 22rem;
+	line-height: 32rem;
+	letter-spacing: 1rem;
+	margin: 0;
+}
+
 /* Products Filter */
 
 .products-filter-wrapper{

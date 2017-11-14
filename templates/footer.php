@@ -464,7 +464,7 @@
 			<script src="js/specific/page-about-brand.js"></script>
 			<!-- PAGE - ABOUT BRAND PAGE JS (END) -->
 		<?php }
-		if ( strpos( $currentpage, 'category_products.php' ) == true ) { ?>
+		if ( strpos( $currentpage, 'category_products.php' ) == true || strpos( $currentpage, 'category_products_empty.php' ) == true ) { ?>
 			<!-- CATEGORY - PRODUCTS JS -->
 			<script src="js/libs/slick.min.js"></script>
 			<script src="js/specific/category-products.js"></script>
