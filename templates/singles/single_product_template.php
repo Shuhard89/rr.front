@@ -658,6 +658,65 @@
 	</div>
 </div>
 
+<div class="modal-find-shops">
+	<div class="modal-find-shops-close-btn"></div>
+	<div class="modal-find-shops-content">
+		<h6>Наличие в магазинах</h6>
+		<div class="in-stock-shops-container">
+			<ul class="in-stock-shops-cities-list">
+				<li>
+					<h6>Киев</h6>
+					<ul class="in-stock-shops-list">
+						<li>
+							<h6>Ocean Plaza</h6>
+							<address>Киев, ул.Антоновича, 176</address>
+							<span>пн. – вс. 10:00 – 22:00</span>
+							<a href="tel:+38(044) 355 53 35">+38(044) 355 53 35</a>
+						</li>
+						<li>
+							<h6>ТОК "GULLIVER"</h6>
+							<address>Киев, пл. Спортивна 1</address>
+							<span>пн. – вс. 10:00 – 22:00</span>
+						</li>
+						<li>
+							<h6>ТРЦ "LAVINA MALL"</h6>
+							<address>Киев, ул.Берковецкая 6Д</address>
+							<span>пн. – вс. 10:00 – 22:00</span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h6>Черкассы</h6>
+					<ul class="in-stock-shops-list">
+						<li>
+							<h6>Ocean Plaza</h6>
+							<address>Киев, ул.Антоновича, 176</address>
+							<span>пн. – вс. 10:00 – 22:00</span>
+							<a href="tel:+38(044) 355 53 35">+38(044) 355 53 35</a>
+						</li>
+						<li>
+							<h6>ТОК "GULLIVER"</h6>
+							<address>Киев, пл. Спортивна 1</address>
+							<span>пн. – вс. 10:00 – 22:00</span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h6>Одесса</h6>
+					<ul class="in-stock-shops-list">
+						<li>
+							<h6>Ocean Plaza</h6>
+							<address>Киев, ул.Антоновича, 176</address>
+							<span>пн. – вс. 10:00 – 22:00</span>
+							<a href="tel:+38(044) 355 53 35">+38(044) 355 53 35</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
 <!-- Shoes Size Table (show if product is shoes) -->
 
 <!-- <div class="modal-size-table">

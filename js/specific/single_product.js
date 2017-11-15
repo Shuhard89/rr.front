@@ -259,4 +259,21 @@ $(document).ready(function() {
 
 		mobileProductThumbnailsSlider('#product-gallery-mobile-slider');
 	}
+
+	// Find shops modal
+	$('.find-in-shops').on('click', function(event) {
+		event.preventDefault();
+		
+		$('.modal-find-shops').addClass('visible');
+		$('.search-modal-dark-overlay').addClass('visible');
+		$('html').addClass('overflow-hidden');
+	});
+
+	$('.search-modal-dark-overlay, .modal-find-shops-close-btn').on('click', function(event) {
+		event.preventDefault();
+
+		$('.modal-find-shops').removeClass('visible');
+		$('.search-modal-dark-overlay').removeClass('visible');
+		$('html').removeClass('overflow-hidden');
+	});
 });

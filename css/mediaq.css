@@ -1348,6 +1348,24 @@
 		-webkit-overflow-scrolling: touch;
 	}
 
+	.modal-find-shops{
+		width: 100%;
+		height: 100%;
+	}
+
+	.modal-find-shops-content{
+		padding: 60rem 0 60rem 20rem;
+		overflow-x: hidden;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.modal-find-shops-close-btn {
+		left: inherit;
+		right: 0;
+		background-image: url(../img/icons/icon_cross.svg);
+	}
+
 	.showroom-cities-radio-wrapper,
 	.showroom-shops-radio-wrapper{
 		-webkit-overflow-scrolling: touch;
