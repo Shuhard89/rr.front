@@ -267,6 +267,7 @@ button{
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 .header-profile-nav > ul > li.header-profile-link > a{
@@ -279,6 +280,19 @@ button{
 
 .header-profile-nav > ul > li.header-cart-link > a{
 	background-image: url('../img/icons/icon_cart.svg');
+}
+
+.header-profile-nav > ul > li.header-cart-link > a > span{
+	display: block;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #fff;
+	font-weight: 300;
+	font-size: 8rem;
+	line-height: 43rem;
+	text-align: center;
 }
 
 

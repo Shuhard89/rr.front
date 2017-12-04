@@ -91,7 +91,7 @@
 						<a href="pa_favourite.php">Избранное</a>
 					</li>
 					<li class="header-cart-link">
-						<a href="#">Корзина</a>
+						<a href="#">Корзина<span>4</span></a>
 					</li>
 				</ul>
 			</nav>
