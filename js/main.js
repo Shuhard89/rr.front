@@ -388,4 +388,8 @@ $(document).ready(function() {
 	}
 
 	textureTip();
+
+	$('body').on('contextmenu', 'img', function(e){ 
+	  return false; 
+	});
 });
