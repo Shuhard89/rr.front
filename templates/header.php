@@ -95,6 +95,7 @@
 					</li>
 				</ul>
 			</nav>
+			<a href="tel:+380675323004" class="header-tel">067 532 3004</a>
 		</div>
 		<div class="header-nav-wrapper clearfix">
 			<a href="index.php" class="header-logo"></a>

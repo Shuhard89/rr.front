@@ -470,6 +470,17 @@ button{
 	left: -6rem
 }
 
+a.header-tel{
+	display: block;
+	float: right;
+	font-weight: 300;
+	font-size: 14rem;
+	line-height: 40rem;
+	letter-spacing: 1rem;
+	color: #fff;
+	margin: 0 30rem 0 0;
+}
+
 
 
 /* FOOTER */
@@ -570,6 +581,29 @@ button{
 	color: #fafafa;
 	opacity: .5;
 	margin: 50rem 0 0 0;
+}
+
+.footer-schedule p{
+	height: 18rem;
+	overflow: hidden;
+	font-weight: 300;
+	font-size: 13rem;
+	line-height: 18rem;
+	margin: 20rem 0;
+}
+
+.footer-schedule ul{
+	opacity: .5;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+.footer-schedule ul > li > span:first-of-type{
+	display: block;
+	float: left;
+	width: 80rem;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 
 

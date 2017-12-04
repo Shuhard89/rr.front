@@ -44,6 +44,19 @@
 							<a href="help_size_charts.php">Таблица размеров</a>
 						</li>
 					</ul>
+					<div class="footer-schedule">
+						<p>Время работы</p>
+						<ul>
+							<li class="clearfix">
+								<span>Пн - Пт</span>
+								<span>9.00-18.00</span>
+							</li>
+							<li class="clearfix">
+								<span>Сб - Вс</span>
+								<span>выходной</span>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div class="footer-menu-container footer-menu-container-wout-heading clearfix">
 					<ul class="footer-menu-list">
