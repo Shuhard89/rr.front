@@ -44,19 +44,6 @@
 							<a href="help_size_charts.php">Таблица размеров</a>
 						</li>
 					</ul>
-					<div class="footer-schedule">
-						<p>Время работы</p>
-						<ul>
-							<li class="clearfix">
-								<span>Пн - Пт</span>
-								<span>9.00-18.00</span>
-							</li>
-							<li class="clearfix">
-								<span>Сб - Вс</span>
-								<span>выходной</span>
-							</li>
-						</ul>
-					</div>
 				</div>
 				<div class="footer-menu-container footer-menu-container-wout-heading clearfix">
 					<ul class="footer-menu-list">
@@ -448,6 +435,93 @@
 	<!-- TEXTURE TIP -->
 	<div class="texture-tip">
 		<img src="" alt="Texture enlarged">
+	</div>
+
+	<!-- CONTACTS MODAL -->
+	<div class="modal-contacts">
+		<div class="modal-contacts-close-btn"></div>
+		<div class="modal-contacts-content">
+			<h6>Контакты</h6>
+			<ul class="modal-contacts-list">
+				<li>
+					<a href="tel:+380443555335">+38 (044) 355 53 35</a>
+				</li>
+				<li>
+					<a href="mailto:info@royrobson.com.ua">info@royrobson.com.ua</a>
+				</li>
+			</ul>
+			<h6>График работы</h6>
+			<ul class="modal-contacts-list">
+				<li class="clearfix">
+					<span>пн - пт</span><span>10:00 – 22:00</span>
+				</li>
+				<li class="clearfix">
+					<span>сб - вс</span><span>выходной</span>
+				</li>
+			</ul>
+			<h6>Магазины</h6>
+			<div class="modal-contacts-shops-container">
+				<ul class="modal-contacts-shops-cities-list">
+					<li>
+						<h6>Киев</h6>
+						<ul class="modal-contacts-shops-list">
+							<li>
+								<h6>
+									<a href="#">Ocean Plaza</a>
+								</h6>
+								<address>Киев, ул.Антоновича, 176</address>
+								<span>пн. – вс. 10:00 – 22:00</span>
+							</li>
+							<li>
+								<h6>
+									<a href="#">ТОК "GULLIVER"</a>
+								</h6>
+								<address>Киев, пл. Спортивна 1</address>
+								<span>пн. – вс. 10:00 – 22:00</span>
+							</li>
+							<li>
+								<h6>
+									<a href="#">ТРЦ "LAVINA MALL"</a>
+								</h6>
+								<address>Киев, ул.Берковецкая 6Д</address>
+								<span>пн. – вс. 10:00 – 22:00</span>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h6>Черкассы</h6>
+						<ul class="modal-contacts-shops-list">
+							<li>
+								<h6>
+									<a href="#">Ocean Plaza</a>
+								</h6>
+								<address>Киев, ул.Антоновича, 176</address>
+								<span>пн. – вс. 10:00 – 22:00</span>
+							</li>
+							<li>
+								<h6>
+									<a href="#">ТОК "GULLIVER"</a>
+								</h6>
+								<address>Киев, пл. Спортивна 1</address>
+								<span>пн. – вс. 10:00 – 22:00</span>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h6>Одесса</h6>
+						<ul class="modal-contacts-shops-list">
+							<li>
+								<h6>
+									<a href="#">Ocean Plaza</a>
+								</h6>
+								<address>Киев, ул.Антоновича, 176</address>
+								<span>пн. – вс. 10:00 – 22:00</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 
 	<!-- MAIN JS -->

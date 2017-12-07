@@ -389,7 +389,38 @@ $(document).ready(function() {
 
 	textureTip();
 
+	// Prevent context menu on images
 	$('body').on('contextmenu', 'img', function(e){ 
 	  return false; 
+	});
+
+	// Contacts modal
+	$('#a-header-contacts').on('click', function(event) {
+		event.preventDefault();
+		
+		$('.modal-contacts').addClass('visible');
+		$('.search-modal-dark-overlay').addClass('visible');
+		$('html').addClass('overflow-hidden');
+	});
+
+	$('.search-modal-dark-overlay, .modal-contacts-close-btn').on('click', function(event) {
+		event.preventDefault();
+
+		$('.modal-contacts').removeClass('visible');
+		$('.search-modal-dark-overlay').removeClass('visible');
+		$('html').removeClass('overflow-hidden');
+	});
+
+	// Contacts modal accordeon
+	$('.modal-contacts-shops-cities-list > li > h6').on('click', function(event) {
+		event.preventDefault();
+		
+		if ( $(this).hasClass('opened') ){
+			$(this).removeClass('opened');
+			$(this).next('ul').slideUp('600');
+		} else {
+			$(this).addClass('opened');
+			$(this).next('ul').slideDown('600');
+		}
 	});
 });

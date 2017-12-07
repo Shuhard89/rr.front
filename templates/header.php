@@ -95,7 +95,6 @@
 					</li>
 				</ul>
 			</nav>
-			<a href="tel:+380675323004" class="header-tel">067 532 3004</a>
 		</div>
 		<div class="header-nav-wrapper clearfix">
 			<a href="index.php" class="header-logo"></a>
@@ -201,39 +200,6 @@
 						</div>
 					</li>
 					<li>
-						<a href="category_products.php">Брюки</a>
-						<div class="sub-menu-wrapper clearfix">
-							<ul class="sub-menu-list">
-								<li>
-									<a href="category_products.php">Футболки</a>
-								</li>
-								<li>
-									<a href="category_products.php">Поло</a>
-								</li>
-								<li>
-									<a href="category_products.php">Рубашки</a>
-								</li>
-								<li>
-									<a href="category_products.php">Тениски</a>
-								</li>
-							</ul>
-							<ul class="sub-menu-list">
-								<li>
-									<a href="category_products.php">Кардиганы</a>
-								</li>
-								<li>
-									<a href="category_products.php">Кофты</a>
-								</li>
-								<li>
-									<a href="category_products.php">Свитера</a>
-								</li>
-								<li>
-									<a href="category_products.php">Гольфы</a>
-								</li>
-							</ul>
-						</div>
-					</li>
-					<li>
 						<a href="category_products.php">Обувь</a>
 						<div class="sub-menu-wrapper clearfix">
 							<ul class="sub-menu-list">
@@ -307,6 +273,9 @@
 					</li>
 					<li>
 						<a href="category_blog.php">Блог</a>
+					</li>
+					<li>
+						<a id="a-header-contacts" href="#">Контакты</a>
 					</li>
 				</ul>
 			</nav>
