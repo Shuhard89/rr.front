@@ -9985,3 +9985,91 @@ a.go-back-404-btn{
 	width: 50%;
 	float: left;
 }
+
+.quality-tip-block{
+	font-weight: 600;
+	font-size: 14rem;
+	line-height: 22rem;
+	letter-spacing: .6rem;
+	text-transform: uppercase;
+}
+
+.quality-tip-block{
+	margin: 0 0 30rem 0;
+}
+
+.quality-tip-block > span{
+	display: block;
+}
+
+.qlt-title{
+	float: left;
+}
+
+.qlt-name{
+	position: relative;
+	float: right;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.qlt-name:hover .qlt-tip{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.qlt-tip{
+	width: 360rem;
+	position: absolute;
+	bottom: calc(100% + 20rem);
+	right: 0;
+	background-color: #fff;
+	border-radius: 5rem;
+	box-shadow: 2rem 2rem 20rem rgba(0,0,0,.1);
+	padding: 20rem;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity .4s ease, transform .4s ease;
+	transform: translateY(20rem);
+}
+
+.qlt-img{
+	width: 60rem;
+	height: 60rem;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	background-color: #ccc;
+	font-size: 8rem;
+	line-height: 60rem;
+	text-align: center;
+	font-weight: normal;
+}
+
+.qlt-img > img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.qlt-description{
+	width: calc(100% - 60rem);
+	float: left;
+	font-size: 12rem;
+	line-height: 22rem;
+	letter-spacing: .2rem;
+	font-weight: 300;
+	font-style: italic;
+	text-transform: initial;
+	padding: 0 0 0 20rem;
+}
+
+.qlt-description p{
+	margin: 0 0 10rem 0;
+}
+
+.qlt-description p:last-of-type,
+.qlt-description p:only-of-type{
+	margin: 0;
+}

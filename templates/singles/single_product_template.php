@@ -40,6 +40,19 @@
 					<br>
 					<h1 class="single-product-variation-name">Темно-серый костюм</h1>
 					<span class="single-product-articul">Style No. 50330733</span>
+					<div class="quality-tip-block clearfix">
+						<span class="qlt-title">Качество</span>
+						<span class="qlt-name">
+							<span>Cherry trail</span>
+							<div class="qlt-tip">
+								<div class="qlt-img">img here</div>
+								<div class="qlt-description">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima perferendis mollitia.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								</div>
+							</div>
+						</span>
+					</div>
 					<form action="#" method="POST" class="single-product-form" id="single-product-form">
 						<div class="single-product-field-wrapper">
 							<div class="single-product-field-heading clearfix">
