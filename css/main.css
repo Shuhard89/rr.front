@@ -597,6 +597,16 @@ a.header-tel{
 	margin: 50rem 0 0 0;
 }
 
+.footer-copy.made-by{
+	margin: 5rem 0 0 0;
+}
+
+.footer-copy.made-by a{
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 2rem;
+}
+
 .footer-schedule p{
 	height: 18rem;
 	overflow: hidden;

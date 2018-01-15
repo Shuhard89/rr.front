@@ -93,6 +93,7 @@
 			</ul>
 		</div>
 		<span class="footer-copy">&copy; 2017 ROY ROBSON Все права защищены</span>
+		<span class="footer-copy made-by">Handcrafted with love by <a href="https://rossery.com">ROSSERY</a></span>
 	</footer>
 	<!-- FOOTER (END) -->
 
@@ -521,6 +522,7 @@
 					</li>
 				</ul>
 			</div>
+
 		</div>
 	</div>
 
